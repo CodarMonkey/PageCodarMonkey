@@ -1,5 +1,9 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
 .cbody {
-
+	height: 100vh;
 	background-color: black;
 }
 
@@ -15,7 +19,7 @@
 	font-size: 20px;
 }
 .cfoto{
-	margin: 0 50% 0 39%;
+	margin: 0 50% 0 35%;
 	border-style: solid;
 	border-width: 5px;
 	border-color: white;
@@ -32,8 +36,8 @@
 
 
 .cfooter{
-	font-size: 130%;
-	
+
+	font-size: 140%;
 	text-align: center;
 	background-color: white;
 }
