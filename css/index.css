@@ -1,1 +1,39 @@
+.cbody {
 
+	background-color: black;
+}
+
+
+.cheader{
+	display: ;
+	background-color: white;
+	width: 30%;
+	height: 20%;
+}
+
+.clista{
+	font-size: 20px;
+}
+.cfoto{
+	margin: 0 50% 0 39%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 360px;
+	
+}
+
+.ctitle{
+	font-size: 48px;
+	
+	text-align: center;
+
+}
+
+
+.cfooter{
+	font-size: 130%;
+	
+	text-align: center;
+	background-color: white;
+}
