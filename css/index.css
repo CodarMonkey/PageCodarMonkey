@@ -108,24 +108,23 @@ li:hover{
 	margin-left: 22%;
 	display: flow;
 	margin-top: -49%;
-	padding-top: ;
 	position: fixed;
 }
 .c-div-projetos{
 	display: flex;
-	height: 100px;
-	width: 100px;
+	height: 200px;
+	width: 200px;
 	border: solid 3px black;
-	margin-left: 10%;
-	margin-top: 5%;
+	margin-left: 2%;
+	margin-top: 3%;
 	float: left;
 }
 .c-div-banner{
-	height: 100px;
-	width: 100px;
-	
-	margin-left: 10%;
-	margin-top: 10%;
+	height: 200px;
+	width: 200px;
+	background-image: url(img/image11);
+	margin-left: 2%;
+	margin-top: 1%;
 	float: left;
 	border: solid 3px black;
 }
