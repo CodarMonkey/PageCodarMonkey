@@ -7,18 +7,37 @@
 	background-color: black;
 }
 
-.c-div-footer{
-	width: 100%;
-	position: relative;
-	margin-top: 14%;
+
+
+.c-div-header{
+	display: ;
+	background-color: blue;
+	width: 30%;
+	height: 95.8%;
 }
 
-.cheader{
-	display: ;
+
+.c-div-logo{
 	background-color: white;
-	width: 30%;
-	height: 20%;
+	
 }
+
+.ctitle{
+	font-size: 48px;
+	text-align: center;
+}
+
+.c-div-foto{
+
+
+}
+
+
+.c-div-menu{
+
+}
+
+
 
 .clista{
 	font-size: 20px;
@@ -32,12 +51,7 @@
 	
 }
 
-.ctitle{
-	font-size: 48px;
-	
-	text-align: center;
 
-}
 
 
 .cfooter{
@@ -45,4 +59,11 @@
 	font-size: 140%;
 	text-align: center;
 	background-color: white;
+}
+
+
+.c-div-footer{
+	width: 100%;
+	position: relative;
+	
 }
