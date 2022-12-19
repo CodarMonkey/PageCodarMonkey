@@ -32,23 +32,25 @@
 
     @media (max-width: 400px) {
         body{
-            width: 100v;
-        }
-        .w-header {
-            width: ;
             flex-direction: column;
-                    }
+            width: 100vh;
+        }
+        
+        .w-header {
+        
+        
+        }
     
         .w-main{
-            width: ;
-            flex-direction: column;
+            
+
             
         }
     
             
         
         .w-main-h2{
-            margin-top: 1em;
+            
         }
 
         .w-main-h2 {
@@ -57,14 +59,10 @@
 
         .w-main-section{
             
-            padding-left: 2em;
-            background-color: ;            
-            
         }
         .w-main-p{
             margin-left: 3.5em;
             flex-direction: column;
-            
             font-size: 0.9em;
             width: 100vw;
         }
@@ -78,11 +76,11 @@
         }
 
         .w-p-tech, .w-div-tech{
-            margin-top: 1em;
+            
             
         }
         .w-footer{
-            bottom: 0px;
+            
         }
 
 }
