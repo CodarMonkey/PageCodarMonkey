@@ -28,6 +28,8 @@
         margin-top: 2em;
     }
 
+}
+
     @media (max-width: 400px) {
         .w-header {
             flex-direction: column;
@@ -57,18 +59,37 @@
         }
 
         .w-main-section{
-            background-color: blue;
+            width: 0vw;
+            background-color:;
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding-left: 30px
+            padding-left: 30px;
             
         }
         .w-main-p{
-            background-color:;
+            margin-left: 3.5em;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            padding-left: 3.9em;
-            
-
+            font-size: 0.9em;
+            width: 100vw;
         }
+
+
+        .w-article-tech, .w-div-tech{
+            width: 5vw;
+            font-size: 0.8em;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+        .w-p-tech, .w-div-tech{
+            margin-top: 1em;
+            
+        }
+
 }
