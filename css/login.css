@@ -56,9 +56,8 @@ a{
 .w-article-tech{
     width: 100vw;
     display: flex;
-    position: absolute;
+    position: ;
     top: 5em;
-    left: 0em;
     justify-content: center;
     align-items: center;    
 }
