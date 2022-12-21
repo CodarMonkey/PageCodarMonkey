@@ -1,13 +1,13 @@
-*{
-    
+* {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
-    
+
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,54 +15,61 @@ body{
     justify-content: space-between;
     background-color: #333;
     color: white;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
-    
-}
-.a-tech{color: white;}
 
-.header-container{
+}
+
+.a-tech {
+    color: white;
+}
+
+.header-container {
     width: 100vw;
     padding: 1em;
     display: flex;
-    background-color: ;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.h1{
+.h1 {
     font-size: 2.5em;
     font-weight: 700;
     cursor: pointer;
     color: #00e0ff;
     transition: 0.3s;
 }
-.a-brands{
+
+.a-brands {
     text-decoration: none;
     color: white;
     margin: 0.5em;
     transition: 0.3s;
     font-size: 1.3em;
 }
-.h1:hover{
+
+.h1:hover {
     color: #ffff;
 }
-.a-brands:hover, .i-div-tech:hover, .figure-img:hover {
+
+.a-brands:hover,
+.i-div-tech:hover,
+.figure-img:hover {
     color: #00e0ff;
 }
 
-.main-conteiner{
+.main-conteiner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.article-tech{
+.article-tech {
     margin-left: 0px;
     width: 100vw;
     display: flex;
@@ -72,44 +79,49 @@ a{
     background-color: ;
     justify-content: end;
     align-items: center;
-    right: 0.8em;    
+    right: 0.8em;
 }
-.p-tech{
+
+.p-tech {
     margin-right: 1em;
     font-size: 1.4em;
 }
-.i-div-tech{
+
+.i-div-tech {
     transition: 0.6s;
     font-size: 1.4em;
     text-decoration: none;
-    
+
 }
-.div-tech{
+
+.div-tech {
     margin-right: 0.8em;
 }
 
 
-.main-conteiner-section{
-    
+.main-conteiner-section {
+
     margin-left: 4em;
     width: 30em;
     background-color: ;
 }
-.main-conteiner-h2{
+
+.main-conteiner-h2 {
     margin-bottom: 1em;
 }
-.main-conteiner-figure{
+
+.main-conteiner-figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 7em;
-    
-    
+
+
 
 }
 
-.figure-img{
+.figure-img {
     width: 280px;
     height: 280px;
     border-radius: 100px;
@@ -118,11 +130,10 @@ a{
     transition: 0.6s;
     box-shadow: 0px 0px 4px #00e0ff;
 }
-.figure-figcaption{
 
-}
+.figure-figcaption {}
 
-.footer{
+.footer {
     background-color: #2224;
     padding: 1em;
     justify-content: center;

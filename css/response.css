@@ -1,29 +1,15 @@
-@media(max-width:1440px){
-   
-}
+@media(max-width:1440px) {}
 
-@media(max-width:700px){
-
-}
+@media(max-width:700px) {}
 
 @media(max-width:500px) {
- 
 
- 
+    article {}
 
-        article{
-          
-        }
+    .main-conteiner {}
 
-        .main-conteiner{
-            
-           
-        }
-        article .p-tech{
-            
-        }
-        article .div-tech{
-            
-        }
-        
+    article .p-tech {}
+
+    article .div-tech {}
+
 }
