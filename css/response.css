@@ -31,9 +31,11 @@
     }
 
     main .main-conteiner-section {
+        width: 100vw;
         margin-top: -50px;
         justify-content: center;
         align-items: center;
+        margin-left: 0;
     }
 
     main .main-conteiner-h2{
@@ -48,6 +50,7 @@
         width: 100vw;
         justify-content: center;
         align-items: center;
+        margin: 0;
         
     }
 
