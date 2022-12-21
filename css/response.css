@@ -3,30 +3,20 @@
 }
 
 @media(max-width:700px){
-    header{
-        display: block;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+  
     }
 }
 
 @media(max-width:500px) {
-    header-container {
-        background-color: blue;
+    
     }
 
     .nav{
-        background-color: blue;
-            font-size: 1em;
-            align-items: center;
-            justify-content: center;
+        
         }
 
         article{
-            background-color: brown;
-            
-            margin-right: 0px;
+          
         }
 
         .main-conteiner{
@@ -34,14 +24,10 @@
            
         }
         article .p-tech{
-            background-color: brown;
-            font-size: 1em;
-            align-items: center;
-            justify-content: center;
+            
         }
         article .div-tech{
-            font-size: 0.8em;
-            background-color: brown;
+            
         }
         
 }
