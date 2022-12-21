@@ -70,16 +70,14 @@ a {
 }
 
 .article-tech {
-    margin-left: 0px;
+    
     width: 100vw;
     display: flex;
     position: absolute;
     top: 5.3em;
-
-    background-color: ;
     justify-content: end;
     align-items: center;
-    right: 0.8em;
+    
 }
 
 .p-tech {
@@ -100,12 +98,9 @@ a {
 
 
 .main-conteiner-section {
-
-    margin-left: 4em;
-    width: 30em;
-    background-color: ;
+    width: 100vw;
+    
 }
-
 .main-conteiner-h2 {
     margin-bottom: 1em;
 }
@@ -134,8 +129,8 @@ a {
 .figure-figcaption {}
 
 .footer {
+    
     background-color: #2224;
-    padding: 1em;
     justify-content: center;
     align-items: center;
     text-align: center;

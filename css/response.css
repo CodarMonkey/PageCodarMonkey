@@ -4,9 +4,76 @@
 
 @media(max-width:500px) {
 
-    article {}
+    body {}
 
-    .main-conteiner {}
+    header {
+        flex-direction: column;
+    }
+
+    .main-conteiner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+
+    }
+
+    main .article-tech {
+        justify-content: center;
+        align-items: center;
+        top: 6.7em;
+    }
+
+    main .p-tech {
+        font-size: 1em;
+        
+    }
+
+    main .main-conteiner-section {
+        margin-top: -50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .main-conteiner-h2{
+        
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    main .main-conteiner-p{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    main article .div-tech {
+        font-size: 0.7em;
+        left: 0;
+
+    }
+
+
+    main .main-conteiner-figure{
+        width: 100vw;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    main .figure-img {
+        margin-top: 40;
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+
+    }
 
     article .p-tech {}
 
