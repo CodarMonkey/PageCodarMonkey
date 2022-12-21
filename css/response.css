@@ -1,5 +1,5 @@
 @media (max-width: 1200px){
-    header .w-h1{
+    header-container .h1{
         font-size: 1.5em;
         margin-bottom: 0.4em;
     }
@@ -7,24 +7,24 @@
 }
 
 @media (max-width: 700px) {
-    .w-header {
+    .header-container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
 
-    .w-main{
+    .main-conteiner{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .w-main-figure, .w-na, .w-article-tech, .w-main-section {
+    .main-conteiner-figure, .na, .article-tech, .main-conteiner-section {
         margin: 1.2em;
     }
-    .w-main-h2{
+    .main-conteiner-h2{
         margin-top: 2em;
     }
 
@@ -37,11 +37,11 @@
             
         }
         
-        header {
+        header-container {
             background-color: blue;
         }
 
-        .w-nav{
+        .nav{
             background-color: blue;
             font-size: 1em;
             align-items: center;
@@ -54,17 +54,17 @@
             margin-right: 0px;
         }
 
-        .w-main{
+        .main-conteiner{
             
            
         }
-        article .w-p-tech{
+        article .p-tech{
             background-color: brown;
             font-size: 1em;
             align-items: center;
             justify-content: center;
         }
-        article .w-div-tech{
+        article .div-tech{
             font-size: 0.8em;
             background-color: brown;
         }

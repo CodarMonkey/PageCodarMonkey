@@ -1,4 +1,5 @@
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,98 +22,107 @@ a{
     text-decoration: none;
     
 }
-.w-a-tech{color: white;}
+.a-tech{color: white;}
 
-.w-header{
+.header-container{
+    width: 100vw;
     padding: 1em;
     display: flex;
-    background-color: #2222;
+    background-color: ;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.w-h1{
+.h1{
     font-size: 2.5em;
     font-weight: 700;
     cursor: pointer;
     color: #00e0ff;
     transition: 0.3s;
 }
-.w-a-brands{
+.a-brands{
     text-decoration: none;
     color: white;
     margin: 0.5em;
     transition: 0.3s;
     font-size: 1.3em;
 }
-.w-h1:hover{
+.h1:hover{
     color: #ffff;
 }
-.w-a-brands:hover, .w-i-div-tech:hover, .w-figure-img:hover {
+.a-brands:hover, .i-div-tech:hover, .figure-img:hover {
     color: #00e0ff;
 }
 
-.w-article-tech{
+.main-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.article-tech{
+    margin-left: 0px;
     width: 100vw;
     display: flex;
-    position: ;
-    top: 5em;
-    justify-content: center;
-    align-items: center;    
+    position: absolute;
+    top: 5.3em;
+
+    background-color: ;
+    justify-content: end;
+    align-items: center;
+    right: 0.8em;    
 }
-.w-p-tech{
+.p-tech{
     margin-right: 1em;
     font-size: 1.4em;
 }
-.w-i-div-tech{
+.i-div-tech{
     transition: 0.6s;
     font-size: 1.4em;
     text-decoration: none;
     
 }
-.w-div-tech{
+.div-tech{
     margin-right: 0.8em;
 }
 
-.w-main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-}
-.w-main-section{
+
+.main-conteiner-section{
     
+    margin-left: 4em;
     width: 30em;
+    background-color: ;
 }
-.w-main-h2{
+.main-conteiner-h2{
     margin-bottom: 1em;
 }
-.w-main-figure{
+.main-conteiner-figure{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 2em;
+    margin-right: 7em;
     
     
 
 }
 
-.w-figure-img{
-    width: 200px;
-    height: 200px;
+.figure-img{
+    width: 300px;
+    height: 300px;
     border-radius: 100px;
     border: solid 2px;
     margin-bottom: 1em;
     transition: 0.6s;
     box-shadow: 0px 0px 4px #00e0ff;
 }
-.w-figure-figcaption{
+.figure-figcaption{
 
 }
 
-.w-footer{
+.footer{
     background-color: #2224;
     padding: 1em;
     justify-content: center;
