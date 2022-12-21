@@ -15,14 +15,14 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100vw;
+        
 
     }
 
     main .article-tech {
         justify-content: center;
         align-items: center;
-        top: 6.7em;
+        top: 7em;
     }
 
     main .p-tech {
@@ -40,7 +40,7 @@
 
     main .main-conteiner-h2{
         
-        width: 100vw;
+        margin-top: 3em;
         justify-content: center;
         align-items: center;
         
